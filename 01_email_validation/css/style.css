@@ -1,0 +1,135 @@
+/* font */
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    background: linear-gradient(#4671ea, #ac34e7);
+}
+
+form {
+    max-width: 550px;
+    width: 100%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.input-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 55px;
+}
+
+input {
+    height: 100%;
+    padding: 0 45px;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+    border: 2px solid #bfbfbf;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.input {
+    width: 75%;
+    margin-right: 20px;
+}
+
+.input:focus {
+    border-color: #4671ea;
+}
+
+.valid .input:focus {
+    border-color: #4671ea;
+}
+
+.error .input {
+    border-color: #de0611;
+}
+
+.button {
+    width: 25%;
+    padding: 0;
+    color: #fff;
+    background-color: #4671ea;
+    border: 0;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #1748cf;
+}
+
+i {
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+    transform: translateY(-50%);
+}
+
+.email-icon {
+    left: 15px;
+    color: #bfbfbf;
+    transition: all 0.3s ease;
+}
+
+.error .email-icon {
+    color: #de0611;
+}
+
+.valid .email-icon {
+    color: #1748cf;
+}
+
+.input:focus ~ .email-icon {
+    color: #1748cf;
+}
+
+.error .input:focus ~ .email-icon {
+    color: #de0611;
+}
+
+.error-icon,
+.passed-icon {
+    left: calc(75% - 60px);
+    display: none;
+    color: #de0611;
+}
+
+.error .error-icon {
+    display: block;
+}
+
+.passed-icon {
+    color: #1748cf;
+}
+
+.valid .passed-icon {
+    display: block;
+}
+
+.text {
+    margin: 10px 0 -10px 2px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #de0611;
+}
+
+.valid .text {
+    color: #1748cf;
+}
+
