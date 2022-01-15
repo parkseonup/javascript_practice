@@ -9,6 +9,6 @@
 - 버튼 클릭 위치에 맞춰서 애니메이션 생성하기
 - 출처 : 유투버 CodingLab - https://www.youtube.com/watch?v=QrizeQUOzcQ&list=PLImJ3umGjxdAuARwziklrT2QEELizOMtr&index=11
 
-## 03_calendar
+## 03_calendar01
 - 캘린더 만들기
 - 출처 : 유튜버 만학도 프로젝트 width JS https://www.youtube.com/watch?v=jFmcH5GVRs4
