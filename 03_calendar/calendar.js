@@ -16,7 +16,7 @@ const renderCalender = () => {
     const TLDate = thisLast.getDate();
     const TLDay = thisLast.getDay();
     
-    const prevDates = []; 
+    const prevDates = [];
     const thistDates = [...Array(TLDate + 1).keys()].slice(1); 
     // [...] : 배열을 문자열로 변환
     // getDate()를 array로 바꿔보면 key값은 index로 0부터 시작하니까 마지막 숫자가 30이 되므로 +1 해서 31을 만들어줌
@@ -35,27 +35,23 @@ const renderCalender = () => {
         nextDates.push(i);
     }
     
-
-
-
-    //////////////////////////////////////// 여기부터 공부하기
-    const dates = prevDates.concat(thistDates, nextDates);
-    const firstDateIndex = dates.indexOf(1);
-    const lastDateIndex = dates.lastIndexOf(TLDate);
+    const dates = prevDates.concat(thistDates, nextDates); // concat() : 기존 배열들을 합쳐서 새로운 배열을 만들어줌
+    const firstDateIndex = dates.indexOf(1); // indexOf() : 괄호() 안에 가지는 내용의 index를 구해줌
+    const lastDateIndex = dates.lastIndexOf(TLDate); // lastIndexOf() : 괄호() 안에 가지는 내용을 끝에서 부터 찾고, 그 내용의 index를 구해줌 (내용의 값만 뒤에서 찾는거고, index는 앞에서부터 구함)
     
     dates.forEach((date, i) => {
         const condition = (i >= firstDateIndex && i < lastDateIndex + 1)
-            ? 'this'
-            : 'other';
+            ? 'this' // 금월 날짜라는 걸 표시
+            : 'other'; // 다른 달 날짜라는 걸 표시
         dates[i] = `<div class="date"><span class="${condition}">${date}</span></div>`;
     });
     
-    document.querySelector('.dates').innerHTML = dates.join('');
+    document.querySelector('.dates').innerHTML = dates.join(''); // join() : 배열의 요소를 연결해서 하나의 문자열로 변환
 
     const today = new Date();
     if(viewMonth === today.getMonth() && viewYear === today.getFullYear()) {
-        for(let date of document.querySelectorAll('.this')) {
-            if (+date.innerText === today.getDate()) {
+        for(let date of document.querySelectorAll('.this')) { // for a of b : b가 a에 할당된다 
+            if (+date.innerText === today.getDate()) { // + 연산자 : type을 num으로 변환해줌
                 date.classList.add('today');
                 break;
             }
@@ -67,7 +63,7 @@ const renderCalender = () => {
 renderCalender();
 
 const prevMonth = () => {
-    date.setMonth(date.getMonth() - 1);
+    date.setMonth(date.getMonth() - 1); // setMonth() : 지정된 달로 세팅해줌
     renderCalender();
 }
 
