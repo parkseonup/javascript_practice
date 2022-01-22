@@ -16,3 +16,7 @@
 ## 04_accordionMenu
 - 아코디언 메뉴 만들기
 - 버전 2가지
+
+## 05_cursorAnimation
+- 커서 애니메이션 만들기
+- <button>, <a> 태그에 mouseenter 되면 모양 변화
