@@ -1,22 +1,36 @@
 # javascript_practice
+
 유투브, 인강 등 보고 따라 만들기
 
-## 01_email_validation 
+## 01_email_validation
+
 - 이메일 주소 입력창 양식에 맞게 입력을 했는지 보이는 스크립트 따라하기
 - 출처 : 유투버 CodingLab - https://www.youtube.com/watch?v=ouCTndDS4zk&list=PLImJ3umGjxdAuARwziklrT2QEELizOMtr
 
 ## 02_button_ripple_animation
+
 - 버튼 클릭 위치에 맞춰서 애니메이션 생성하기
 - 출처 : 유투버 CodingLab - https://www.youtube.com/watch?v=QrizeQUOzcQ&list=PLImJ3umGjxdAuARwziklrT2QEELizOMtr&index=11
 
 ## 03_calendar
+
 - 캘린더 만들기
 - 출처 : 유튜버 만학도 프로젝트 width JS https://www.youtube.com/watch?v=jFmcH5GVRs4
 
 ## 04_accordionMenu
+
 - 아코디언 메뉴 만들기
 - 버전 2가지
 
 ## 05_cursorAnimation
+
 - 커서 애니메이션 만들기
 - <button>, <a> 태그에 mouseenter 되면 모양 변화
+
+## (미완성)06_memoBoard
+
+- 메모 보드 만들기
+
+## 07_navAnimationBar
+
+- navigation 마우스호버에 따라 동작하는 navigation bar 만들기 / 페이지 활성화 시 navbar 고정
