@@ -11,7 +11,7 @@ conor의 영상을 보아도 이유를 알 수 없어서, conor가 벤치마킹�
 두 군데 모두 다 포스팅이 되는 contents의 영역을 position: relative 잡았다.<br/><br/>
 
 
-** A. 결론은 position: relative로 만들어도 괜찮다. **
+**A. 결론은 position: relative로 만들어도 괜찮다.**
 
 그저 conor의 취향이 position: fixed 였던걸로.
 
