@@ -11,6 +11,8 @@ conor의 영상을 보아도 이유를 알 수 없어서, conor가 벤치마킹�
 두 군데 모두 다 포스팅이 되는 contents의 영역을 position: relative 잡았다.  
 
 
+
+
 ## 결론은 position: relative로 만들어도 괜찮다.
 그저 conor의 취향이 position: fixed 였던걸로.
 
@@ -31,6 +33,8 @@ main {
 로 css를 변경해주면 된다.  
 
 
+
+
 # Q2. 콘솔에 columnWrappers[column${i}]의 type을 부르면 왜 Array가 아닌 Object로 출력되는가?
 
 columnWrappers[column${i}]을 처음 선언해줄 때
@@ -42,6 +46,11 @@ columnWrappers[column${i}]을 처음 선언해줄 때
 Array와 Object에 대한 개념 정리가 모호하게 되어있던 탓에 이러한 오해가 생긴 것이다. Array와 Object의 개념을 다시 정리해보자.
 
 
+
+
 # Q3. resize시 window.innerWidth 값과 resize 전에 선언했던 previousScreenSize 값에 사이즈 차이가 왜 생기는가?  
+
+
+
 
 # Q4. resize event의 기준점을 왜 window.innerWidth와 previousScreenSize 두 가지 모두로 삼는가?  
