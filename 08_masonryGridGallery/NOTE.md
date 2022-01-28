@@ -43,7 +43,7 @@ columnWrappers[column${i}]을 처음 선언해줄 때
 Array와 Object에 대한 개념 정리가 모호하게 되어있던 탓에 이러한 오해가 생긴 것이다. Array와 Object의 개념을 다시 정리해보자.<br/><br/>
 
 
-# Q3. resize시 window.innerWidth 값과 resize 전에 선언했던 previousScreenSize 값에 사이즈 차이가 왜 생기는가?<br/><br/>
+# Q3. resize시 window.innerWidth 값과 resize 전에 선언했던 previousScreenSize 값에 사이즈 차이가 왜 생기는가?
 
 
 # Q4. resize event의 기준점을 왜 window.innerWidth와 previousScreenSize 두 가지 모두로 삼는가?  

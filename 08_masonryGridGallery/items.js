@@ -1,6 +1,6 @@
+// post 내용 생성 및 저장
 'use strict';
 
-// 변수 선언
 const posts = [];
 const images = [
   'https://dr.savee-cdn.com/things/6/1/947fc7825d592e073f3906.jpg',
@@ -15,6 +15,7 @@ const images = [
 ];
 let imageIndex = 0;
 
+// post info 작성 및 생성
 for (let i = 1; i <= 80; i++) {
   let item = {
     id: i,
