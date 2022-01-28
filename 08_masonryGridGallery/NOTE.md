@@ -1,4 +1,4 @@
-# Q1. 왜 main을 position: fixed로 잡는가? relative는 안되나?
+# Q1. 왜 main을 position: fixed로 잡는가? relative는 안되나?<br/><br/>
 
 강의와 같이 main의 position을 fixed로 잡으면 body가 container의 영역을 인지하지 못한다.  
 main의 position을 relative로 잡으면 body가 포스팅된 container의 영역을 온전히 인지할 수 있을텐데 왜 conor는 이렇게 코드를 짰을까? 의문이 들었다.
@@ -11,7 +11,7 @@ conor의 영상을 보아도 이유를 알 수 없어서, conor가 벤치마킹�
 두 군데 모두 다 포스팅이 되는 contents의 영역을 position: relative 잡았다.<br/><br/>
 
 
-## 결론은 position: relative로 만들어도 괜찮다.  
+## A. 결론은 position: relative로 만들어도 괜찮다.  
 
 그저 conor의 취향이 position: fixed 였던걸로.
 
@@ -32,7 +32,7 @@ main {
 로 css를 변경해주면 된다.<br/><br/>
 
 
-# Q2. 콘솔에 columnWrappers[column${i}]의 type을 부르면 왜 Array가 아닌 Object로 출력되는가?
+# Q2. 콘솔에 columnWrappers[column${i}]의 type을 부르면 왜 Array가 아닌 Object로 출력되는가?<br/><br/>
 
 columnWrappers[column${i}]을 처음 선언해줄 때
 
