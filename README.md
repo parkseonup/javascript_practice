@@ -27,6 +27,7 @@
 ## (미완성)06_memoBoard
 
 - 메모 보드 만들기
+- <canvas> 이해 필요
 
 ## 07_navAnimationBar
 
@@ -35,3 +36,8 @@
 ## 08_masonryGridGallery
 
 - 반응형 masonry 갤러리 만들기
+
+## (미완성)09_svgCurveMenu
+
+- 햄버거 메뉴 클릭시 svg 배경 동작하기
+- <svg> 이해 필요
